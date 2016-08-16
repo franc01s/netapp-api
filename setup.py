@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='netapp',
-      version='1.1',
+      version='0.1',
       description='Netapp api',
       author='Netapp',
       author_email='francois.egger@swatchgroup.com',

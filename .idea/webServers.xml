@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="52158179-8537-4411-b82e-112c7108ef2b" name="web" url="http://10.140.16.35">
+        <fileTransfer host="10.140.16.35" port="22" rootFolder="/root/netappinst" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="419e9ae5-1574-4379-aae3-601666254a17" name="gdc01220" url="http://gdc01220">
+        <fileTransfer host="gdc01220" port="22" rootFolder="/home/itsstor/dev" accessType="SFTP" password="dfeddfdfdf9bdfc4dfcfdfd9dfd9" username="itsstor">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

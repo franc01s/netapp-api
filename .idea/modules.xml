@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Documents/dev/netappinst/.idea/NetApp.iml" filepath="$USER_HOME$/Documents/dev/netappinst/.idea/NetApp.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/dev/pynetappmodule/.idea/pyNetAppModule.iml" filepath="$USER_HOME$/Documents/dev/pynetappmodule/.idea/pyNetAppModule.iml" />
+    </modules>
+  </component>
+</project>
