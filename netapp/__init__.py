@@ -1,1 +1,4 @@
-from . import NaServer, NaElement, DfmErrno, NaErrno
+from .naserver import NaServer
+from .naelement import NaElement
+from .dfmerrno import *
+from .naerrno import *
