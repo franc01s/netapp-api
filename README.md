@@ -12,7 +12,7 @@ and applicable provisions of the FAR and its supplements.
 NetApp, the NetApp logo, and Go Further Faster are trademarks or registered
 trademarks of NetApp, Inc. in the U.S. and/or other countries.
 
-´´´sh
+```sh
 from netapp import NaElement
 from netapp import NaServer
 
@@ -55,4 +55,4 @@ for aggr in aggrs:
     print ('name {} {}'.format(aggr.child_get_string("aggregate"),aggr.child_get_string("physical-used")))
 
 
-´´´
+```
