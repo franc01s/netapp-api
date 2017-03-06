@@ -95,3 +95,7 @@ ENV/
 
 #Sessions
 app/flasksession
+
+# pyCharm
+.pypirc
+MANIFEST
