@@ -1,23 +1,11 @@
 # Netapp zapi Modules
 ### Version : 0.2
 
-From NetApp Manageability SDK release 5.7
+Install
+-------
 
-Copyright Notice:
-Copyright @ 1999-2015 NetApp,Inc. All rights reserved.
-<sup>1,2<sup>
-
-<sub><sub>
-1: U.S. Government Rights -- Commercial Computer Software.
-Government users are subject to the NetApp, Inc. standard license agreement 
-and applicable provisions of the FAR and its supplements.
-</sub></sub>
-
-<sub><sub>
-2:NetApp, the NetApp logo, and Go Further Faster are trademarks or registered
-trademarks of NetApp, Inc. in the U.S. and/or other countries.
-</sub></sub>
-
+    sudo pip install -U netappzap
+    
 
 ```python
 from netappzap import NaElement
@@ -62,4 +50,21 @@ for aggr in aggrs:
     print ('name {} {}'.format(aggr.child_get_string("aggregate"),aggr.child_get_string("physical-used")))
 
 
-~~~~
+```
+
+NetApp Manageability SDK release 5.7
+
+Copyright Notice:
+Copyright @ 1999-2015 NetApp,Inc. All rights reserved.
+<sup>1,2<sup>
+
+<sub><sub>
+1: U.S. Government Rights -- Commercial Computer Software.
+Government users are subject to the NetApp, Inc. standard license agreement 
+and applicable provisions of the FAR and its supplements.
+</sub></sub>
+
+<sub><sub>
+2:NetApp, the NetApp logo, and Go Further Faster are trademarks or registered
+trademarks of NetApp, Inc. in the U.S. and/or other countries.
+</sub></sub>
