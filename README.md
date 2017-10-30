@@ -6,6 +6,8 @@ Install
 
     sudo pip install -U netappzap
     
+API Example
+-----------
 
 ```python
 from netappzap import NaElement
