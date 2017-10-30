@@ -7,7 +7,7 @@ setup(name='netappzap',
       version='0.1',
       description='Netapp zapi python modules',
       author='François Egger',
-      author_email='francois.egger@swatchgroup.com',
+      author_email='francois@egger.cloud',
       url='https://github.com/franc01s/netapp-api',
       packages=['netappzap'],
      )
