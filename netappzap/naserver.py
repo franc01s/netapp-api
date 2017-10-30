@@ -13,7 +13,7 @@
 
 __version__ = "1.0"
 
-from .naelement import *
+from NaElement import *
 
 import base64
 import xml.parsers.expat
@@ -51,7 +51,7 @@ DFM_URL = "/apis/XMLrequest"
 
 ZAPI_xmlns = "http://www.netapp.com/filer/admin"
 
-NMSDK_VERSION = "5.6"
+NMSDK_VERSION = "5.7"
 NMSDK_LANGUAGE = "Python"
 nmsdk_app_name = ""
 

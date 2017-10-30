@@ -1,11 +1,11 @@
 # Netapp zapi Modules
-### Version : 0.1
+### Version : 0.2
 
-From NetApp Manageability SDK release 5.6
+From NetApp Manageability SDK release 5.7
 
 Copyright Notice:
 Copyright @ 1999-2015 NetApp,Inc. All rights reserved.
-<sup>1,2</sup>
+<sup>1,2<sup>
 
 <sub><sub>
 1: U.S. Government Rights -- Commercial Computer Software.
@@ -19,9 +19,9 @@ trademarks of NetApp, Inc. in the U.S. and/or other countries.
 </sub></sub>
 
 
-~~~sh
-from netapp import NaElement
-from netapp import NaServer
+```python
+from netappzap import NaElement
+from netappzap import NaServer
 
 s = NaServer('filer', 1, 21)
 s.set_transport_type("HTTP")
